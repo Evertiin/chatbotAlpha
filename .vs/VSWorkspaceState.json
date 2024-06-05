@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend\\src",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\pages",
+    "\\frontend\\src\\pages\\templatesCard"
+  ],
+  "SelectedNode": "\\frontend\\src\\pages\\templatesCard\\Index.vue",
+  "PreviewInSolutionExplorer": false
+}

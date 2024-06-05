@@ -1,0 +1,20 @@
+{
+  "notas": {
+      "version": "v1.1.0",
+      "melhorias": [
+          "Tela de Login: O layout da tela de login foi otimizado para garantir uma experiência visual mais agradável.",
+          "Aprimoramento: Adicionado botão 'Mostrar mais' na página de atendimentos para exibir atendimentos mais antigos. Ao clicar no botão carrega mais atendimentos.",
+          "Carregamento: Incluído indicador de carregamento ao filtrar os atendimentos entre abertos, finalizados, em andamento e na fila.",
+          "Whatsapp: Foram realizadas melhorias na estabilidade da conexão com o Whatsapp."
+      ],
+      "novas": [
+          "Novidade: Introduzimos um modal de informações de versão para mantê-lo atualizado sobre as melhorias, novas funcionalidades e correções do sistema."
+      ],
+      "falhas": [
+          "Admin: Resolvemos um problema no filtro de atendimentos ao selecionar a opção 'Admin - Visualizar todos os atendimentos (Sem filtro)'.",
+          "Fila do Chatbot: Corrigido o desaparecimento de atendimentos da fila quando um novo chegava, especialmente para usuários com perfil de administrador.",
+          "ChatFlow: A distribuição de atendimentos para atendentes não estava ocorrendo de forma automática quado configurado de forma aleatória ou balanceada; essa falha foi corrigida.",
+          "Chatbot: A transferência por inatividade no chatbot não estava funcionando; agora foi corrigida e está operacional."
+      ]
+  }
+}
