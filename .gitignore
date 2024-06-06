@@ -9,6 +9,7 @@ backend/public
 .cache
 logs/
 WWebJS/
+.vscode/
 
 
 yarn.lock
