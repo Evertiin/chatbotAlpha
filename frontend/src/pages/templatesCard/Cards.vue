@@ -10,7 +10,7 @@
 </div>
 <q-separator inset />
 <H2></H2>
-<div class="text-subtitle2">Evento acionado quando existe um pagamento pendente </div>
+<div class="text-subtitle2">Evento acionado quando existe um pagamento pendente  </div>
         <q-card-actions vertical>
             <q-btn
             flat
