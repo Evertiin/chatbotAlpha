@@ -16,7 +16,7 @@
         <Cards/>
       </div>
       <div class="col">
-        <Cards/>
+        <CardsPagamentoAprovado/>
       </div>
       <div class="col">
         <Cards/>
@@ -48,18 +48,14 @@
 
 <script>
 import Cards from './Cards.vue'
+import CardsPagamentoAprovado from './CardPagamentoAprovado.vue'
 export default {
   components: {
-    Cards
-  },
-  data() {
-    return {
-      items: [
-        { component: 'Cards' }
-      ]
-    }
+    Cards,
+    CardsPagamentoAprovado
   }
 }
+
 </script>
 <style lang="sass">
 </style>
