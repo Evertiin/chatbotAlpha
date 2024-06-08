@@ -13,32 +13,44 @@
             <h1> </h1>
             <div class="row">
       <div class="col">
-        <Cards/>
+        <CardAguardandoPagamento/>
       </div>
       <div class="col">
-        <CardsPagamentoAprovado/>
+        <CardPagamentoAprovado/>
       </div>
       <div class="col">
-        <Cards/>
+        <CardChargeback/>
       </div>
       <div class="col">
-        <Cards/>
+        <CardAnalise/>
       </div>
     </div>
     <h1>
     </h1>
     <div class="row">
       <div class="col">
-        <Cards/>
+        <card-carrinho-abandonado/>.
       </div>
       <div class="col">
-        <Cards/>
+        <card-devolvida/>
       </div>
       <div class="col">
-        <Cards/>
+        <card-estorno/>
       </div>
       <div class="col">
-        <Cards/>
+        <card-pagamento-atrasado/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <card-parcialmente/>
+      </div>
+      <div class="col">
+        <card-processamento/>
+      </div>
+      <div class="col">
+      </div>
+      <div class="col">
       </div>
     </div>
     </div>
@@ -47,12 +59,28 @@
 </template>
 
 <script>
-import Cards from './Cards.vue'
-import CardsPagamentoAprovado from './CardPagamentoAprovado.vue'
+import CardAguardandoPagamento from './CardAguardandoPagamento.vue'
+import CardPagamentoAprovado from './CardPagamentoAprovado.vue'
+import CardChargeback from './CardChargeback.vue'
+import CardAnalise from './CardAnalise.vue'
+import CardCarrinhoAbandonado from './CardCarrinhoAbandonado.vue'
+import CardDevolvida from './CardDevolvida.vue'
+import CardEstorno from './CardEstorno.vue'
+import CardPagamentoAtrasado from './CardPagamentoAtrasado.vue'
+import CardParcialmente from './CardParcialmente.vue'
+import CardProcessamento from './CardProcessamento.vue'
 export default {
   components: {
-    Cards,
-    CardsPagamentoAprovado
+    CardAguardandoPagamento,
+    CardPagamentoAprovado,
+    CardChargeback,
+    CardAnalise,
+    CardCarrinhoAbandonado,
+    CardDevolvida,
+    CardEstorno,
+    CardPagamentoAtrasado,
+    CardParcialmente,
+    CardProcessamento
   }
 }
 

@@ -35,7 +35,7 @@
 <script>
 
 export default {
-  name: 'Cards'
+  name: 'CardAguardandoPagamento'
 }
 </script>
 <style>

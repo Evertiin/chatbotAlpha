@@ -4,13 +4,13 @@
       <q-card-section>
         <div class="icon-text-container">
   <div class="icon-container">
-      <q-icon name="mdi-check-all" class="icon"></q-icon>
+      <q-icon name="mdi-currency-usd-off" class="icon"></q-icon>
   </div>
-  <h3 class="top-heading">Pagamento Aprovado</h3>
+  <h3 class="top-heading">Em Processamento</h3>
 </div>
 <q-separator inset style="width: 260px;" />
 <H2></H2>
-<div class="text-subtitle2">Evento acionado quando existe quando pagamento foi aprovado</div>
+<div class="text-subtitle2">Evento acionado quando existe um pagamento está sendo processado</div>
       <q-card-actions vertical>
           <q-btn
           flat
@@ -35,7 +35,7 @@
 <script>
 
 export default {
-  name: 'CardPagamentoAprovado'
+  name: 'CardProcessamento'
 }
 </script>
 <style>
