@@ -4,7 +4,7 @@
       <q-card-section>
         <div class="icon-text-container">
   <div class="icon-container">
-      <q-icon name="mdi-currency-usd-off" class="icon"></q-icon>
+      <q-icon name="mdi-progress-clock" class="icon"></q-icon>
   </div>
   <h3 class="top-heading">Em Processamento</h3>
 </div>
