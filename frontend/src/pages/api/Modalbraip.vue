@@ -220,7 +220,6 @@ import { ListarTemplates, CriarTemplates, UpdateTemplate } from '../../service/b
 import { ListarWhatsapps } from '../../service/sessoesWhatsapp'
 import { Notify } from 'quasar'
 import { VEmojiPicker } from 'v-emoji-picker'
-
 export default {
   name: 'ModalBraip',
   components: { cMolduraCelular, VEmojiPicker },

@@ -16,6 +16,7 @@
             flat
             style="border: 1px solid #1976D2; border-radius: 12px; margin-right: 10px; width: 200px; text-transform: none; background-color: #1976D2; color: white;"
             icon="create"
+            @click="openModal"
             >
             Configurar Template
             </q-btn>
@@ -29,13 +30,34 @@
         </q-card-actions>
         </q-card-section>
     </q-card>
+    <ModalBraip :show-modal.sync="modalbraip" :config-data="braipConfig" @config-saved="onConfigSaved" />
 </div>
 </template>
 
 <script>
-
+import ModalBraip from '../api/Modalbraip.vue'
 export default {
-  name: 'CardAguardandoPagamento'
+  name: 'CardAguardandoPagamento',
+  components: {
+    ModalBraip
+  },
+  data() {
+    return {
+      modalbraip: false,
+      braipConfig: {}
+    }
+  },
+  methods: {
+    openModal() {
+      // Método para abrir o modal Braip
+      this.modalbraip = true
+    },
+    onConfigSaved(config) {
+      // Método para lidar com as configurações salvas
+      // Você pode atualizar os dados ou realizar outras operações necessárias
+      this.braipConfig = { ...config }
+    }
+  }
 }
 </script>
 <style>

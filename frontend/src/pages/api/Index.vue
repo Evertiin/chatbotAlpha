@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-card class="q-ma-md">
-      <q-card-section>z
+      <q-card-section>
         <div class="text-h6">
           Configurações API
           <q-btn-dropdown class="float-right" color="primary" label="Adcionar Integração">
